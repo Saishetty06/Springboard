@@ -1,9 +1,10 @@
 git add . 
 git commit -m "First commit"
+
 git push 
 
 
-for a new repo follow this
+for a new repo that u have created for the first time and want to upload files on github- follow this
 
 
 $ echo "# repo name" >> README.md
@@ -13,10 +14,11 @@ git remote add origin <link> for example https://github.com/Saishetty06/"reponam
 git push -u origin main
 
 
-and if u want to add any files on github than follow these
+and if u want to add any files on github  than follow these
 
 git add . 
 git commit -m "First commit"
+git push --set-upstream origin main (do this for the first time)
 git push 
 
 you will add the specific files u want to 
