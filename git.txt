@@ -1,0 +1,42 @@
+git add . 
+git commit -m "First commit"
+git push 
+
+
+for a new repo follow this
+
+
+$ echo "# repo name" >> README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin <link> for example https://github.com/Saishetty06/"reponame".git
+git push -u origin main
+
+
+and if u want to add any files on github than follow these
+
+git add . 
+git commit -m "First commit"
+git push 
+
+you will add the specific files u want to 
+
+
+step1 for running jupyter notebook
+
+first "activate learn" on anaconda prompt
+cd go into specific directory
+run jupyter notebook --no-browser
+and if u to close then  "conda deactivate"
+
+to create a new environment
+
+conda create --name xyz python=3.7
+then go install 
+conda install mamba -c conda-forge 
+ 
+mamba install pandas numpy scikit-learn seaborn lxml matplotlib scipy statsmodels
+
+ mamba install -c conda-forge plotly 
+
+follow step 1 after this
